@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ¨nginx:^1.14.0¨
+    argocd-image-updater.argoproj.io/image-list: "nginx:^1.14.0"
 spec:
   replicas: 1
   selector:
